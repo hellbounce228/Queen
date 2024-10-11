@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+h1, h2, h3{
+    color:rgb(220, 20, 60);
+}
+header{
+    background-image: url("images/headerbg.png");  
+    background-size:cover; 
+    height: 35rem;
+    background-position: center; 
+    padding: 0px;
+}
+header h1{
+    position: relative;
+    font-family:"Playfair Display";
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(174, 73, 73);
+    top: 29rem;
+}
+.topnav{
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 2.5rem;
+}
+.topnav a {
+    color:rgb(220, 20, 60);
+    font-size: x-large;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto;
+    border-bottom: 1px solid rgb(220, 20, 60);
+    min-width: 1rem;
+    text-align:center;
+    padding: 5px;
+}
+main{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;*/
+    margin: 1rem;
+    justify-content:left;
+    text-align: justify;
+}
+
+.shortinfo ul{
+    font-size: x-large; 
+    margin-left: 2rem;
+}
+.shortinfo{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px  rgb(25, 25, 25) solid;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3rem;
+}
+.song aside{
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+.song audio{
+    padding-left: 7%;
+}
+.song{
+    
+    padding-right:5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+    border-bottom: 5px  rgb(25, 25, 25) solid;
+}
+.facts{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px  rgb(25, 25, 25) solid;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+figcaption{
+    color:rgb(220, 20, 60);
+    font-size: x-large;
+    position: relative;
+    
+}
+.facts figcaption{
+    left: 3rem;
+}
+.queennow figcaption{
+    left: 5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(220, 20, 60);
+}
+p, article{
+    color:rgba(248, 241, 231, 0.622);
+    font-size: large;
+    
+}
+.movie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 5px  rgb(25, 25, 25) solid;
+}
+.movie iframe{
+    padding-top: 2rem;
+}
+.queennow{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 3rem;
+}
+.queennow img{
+    margin-top: 2rem;
+}
+.logo{
+    position: sticky;
+    position: fixed;
+    bottom: 1rem;
+    right: 0rem;
+
+}
+span{
+    color: rgb(220, 20, 60);
+    font-size: 2em;
+    padding-right: 0rem;
+}
+footer{
+    padding-left:5rem;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    border-top: 5px  rgb(25, 25, 25) solid;
+    font-size: large;
+    color: rgba(248, 241, 231, 0.622);
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap:3rem;
+}
+footer iframe{
+    padding-top: 1rem;
+}
+
+body {
+    margin-left:5rem;
+    margin-right: 5rem;
+    background-color: rgb(30, 30, 30);
+    
+   
+}
+/*
+@media screen and (min-width:320px) {
+    header{
+        background-image: url("images/gos-600.png");
+        height: 30rem;
+        background-position: left;
+
+    }
+    header h1{
+        top: 23.5rem;
+    }
+}
+@media screen and (min-width:600px) {
+    header {
+        background-image: url("images/gos-800.png");
+        background-position: center;
+        
+        height: 20 rem; 
+    }
+    header h1{
+        top: 24rem;
+    }
+   
+    
+    main{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 1rem;
+    }
+    
+
+}
+@media screen and (min-width:760px) {
+    header {
+        background-image: url("images/gos-1280.png");  
+        height: 30rem;
+    }
+    header h1{
+        
+        top: 25rem;
+    }
+
+}
+@media screen and (min-width:1280px) {
+    header {
+        background-image: url("images/gos-1920.png"); 
+    }
+}*/
